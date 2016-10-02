@@ -1,4 +1,4 @@
-# iesiyok, 616394
+# iesiyok
 # 9 Apr 2015, 15:05
 # This is the program running in parallel
 # For running this program on the edward or any HPC system there are two options:
