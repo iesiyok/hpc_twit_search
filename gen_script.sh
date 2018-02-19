@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#	iesiyok, 616394
+#	iesiyok, 
 #	9 Apr 2015, 14:21
 #	This is the general script for running twit_search.py program in parallel
 #	Usage : cmd> ' ./gen_script.sh [node] [core] search_str '
@@ -62,7 +62,7 @@ echo $search_str
 echo $queue
 core=$(($1 * $2)) #total number of cores is = node * core
 
-#PBS -M iesiyok@student.unimelb.edu.au
+#PBS -M iesiyok@
 
 #load modules : mpi and python
 module load openmpi-gcc
